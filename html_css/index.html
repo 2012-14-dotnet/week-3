@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header style="background-color: green;">
+    <h1 class="col-3" style="background-color: blue;">PizzaWorld</h1>
+    <nav>
+      <a href="#">menu</a>
+      <a href="#">drinks</a>
+      <a href="#">about us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <header>
+        <h2>featured pizzas</h2>
+      </header>
+
+      <ul>
+        <li>
+          <figure>
+            <img src="http://placekitten.com/200/300" alt="round cheesy pizza">
+            <figcaption>famous 5-cheese pizza</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="http://placekitten.com/200/300" alt="square carnivore pizza">
+            <figcaption>weird all-meat pizza</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="http://placekitten.com/200/300" alt="chocolate cookie pizza">
+            <figcaption>sweet dessert pizza</figcaption>
+          </figure>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <header>
+        <h2>Place Order</h2>
+      </header>
+
+      <form action="">
+        <h3>Pick a Store</h3>
+        <input type="radio" name="store" id="store001" value="store001">
+        <label for="store001">Store #001</label>
+        <input type="radio" name="store" id="store002" value="store002">
+        <label for="store002">Store #002</label>
+        <input type="radio" name="store" id="store003" value="store003">
+        <label for="store003">Store #003</label>
+
+        <h3>Pick Pizzas</h3>
+        <input type="checkbox" name="pizzas" id="pizza001" value="meat">
+        <label for="pizza001">Meat Pizza</label>
+        <input type="checkbox" name="pizzas" id="pizza002" value="veggie">
+        <label for="pizza002">Veggie Pizza</label>
+        <input type="checkbox" name="pizzas" id="pizza003" value="gf">
+        <label for="pizza003">GlutenFree Pizza</label>
+        <input type="checkbox" name="pizzas" id="pizza004" value="vg">
+        <label for="pizza004">Vegan Pizza</label>
+        <input type="checkbox" name="pizzas" id="pizza005" value="seafood">
+        <label for="pizza005">Seafood Pizza</label>
+
+        <h3>User Info</h3>
+        <input type="text" name="name" id="name" placeholder="fred belotte">
+        <label for="name">Name</label>
+        <input type="text" name="city" id="city" placeholder="Austin">
+        <label for="city">City</label>
+        <select name="state" id="state">
+          <option value="None" selected>None</option>
+          <option value="TX">Texas</option>
+          <option value="RI">Rhode Island</option>
+          <option value="MI">Michigan</option>
+          <option value="NY">New York</option>
+          <option value="HI">Hawaii</option>
+        </select>
+
+        <button type="submit">Place Order</button>
+        <button type="reset">Cancel Order</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <small>Copyright &copy; 2021 fred belotte</small>
+  </footer>
+</body>
+
+</html>
